@@ -16,4 +16,21 @@ nav{
     color: gray;
     background-color: pink;
 
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+nav>ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul>li{
+    margin-left: 15px;
 }
